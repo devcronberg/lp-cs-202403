@@ -13,4 +13,6 @@ Her er en kort vejledning:
 - Deltage i evt. diskussioner om koden
 - PR bliver merget
 
+Projekterne bruger .NET 8 og er en standard løsning CSLegeplads.sln med forskellige projekter. Brug VS, VSC, Rider eller hvad du måtte have lyst til. 
+
 Husk at kode på engelsk og brug muligheden for at kommentere og stille spørgsmål på direkte issues.
