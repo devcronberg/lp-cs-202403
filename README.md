@@ -13,4 +13,4 @@ Her er en kort vejledning:
 - Deltage i evt. diskussioner om koden
 - PR bliver merget
 
-Kontakt mig ved spørgsmål: michell@cronberg.dk
+Husk at kode på engelsk og brug muligheden for at kommentere og stille spørgsmål på direkte issues.
