@@ -9,12 +9,12 @@ namespace CSLegeplads.ConsoleInputHelper
     public static class ConsoleInputHelper
     {
 
-        public static int GetInt(String prompt, int default_value)
+        public static int GetInt(String prompt, int default_value = 0)
         {
             try
             {
                 Console.WriteLine(prompt);
-                String input = Console.ReadLine();
+                string? input = Console.ReadLine();
 
                 if (input == null || input.Trim().Length == 0)
                 {
@@ -30,13 +30,13 @@ namespace CSLegeplads.ConsoleInputHelper
             }
         }
 
-        public static double GetDouble(String prompt, double default_value)
+        public static double GetDouble(String prompt, double default_value = 0.0)
         {
             try
             {
                 Console.WriteLine(prompt);
 
-                String input = Console.ReadLine();
+                String? input = Console.ReadLine();
 
                 if (input == null || input.Trim().Length == 0)
                 {
@@ -53,13 +53,13 @@ namespace CSLegeplads.ConsoleInputHelper
         }
 
 
-        public static bool GetBool(String prompt, bool default_value)
+        public static bool GetBool(String prompt, bool default_value = false)
         {
             try
             {
                 Console.WriteLine(prompt);
 
-                String input = Console.ReadLine();
+                String? input = Console.ReadLine();
 
                 if (input == null || input.Trim().Length == 0)
                 {
@@ -82,7 +82,7 @@ namespace CSLegeplads.ConsoleInputHelper
             {
                 Console.WriteLine(prompt);
 
-                String input = Console.ReadLine();
+                String? input = Console.ReadLine();
 
                 if (input == null || input.Trim().Length == 0)
                 {
